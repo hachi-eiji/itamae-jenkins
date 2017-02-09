@@ -12,7 +12,6 @@ end
 
 package 'jenkins' do
   action :install
-  only_if 'which jenkins'
 end
 
 service 'jenkins' do
